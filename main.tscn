@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk130607vxe8p"]
+
+[ext_resource type="PackedScene" uid="uid://mlf1hvm6apxv" path="res://assets/Assault Rifle.glb" id="1_6bp3p"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.552439, 1.0532, -0.71145)
+
+[node name="Assault Rifle" parent="." instance=ExtResource("1_6bp3p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.295738, 0, 0.385249)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.28694, -0.0309807, 0.957448, 0.629721, -0.747079, -0.212897, 0.721884, 0.664013, -0.194858, 3, 0, 0)
